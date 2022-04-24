@@ -36,9 +36,9 @@ app.use(express.static(path.join(__dirname + '/app/public')));
  
 // // including route files(html-routes.js and api-routes.js) in server
 // // Always have the api-route before the html-routes since this data must display on to the html pages
-require("./app/routing/api-routes.js")(app);
+require("./routing/api-routes.js")(app);
 
-require("./app/routing/html-routes.js")(app);
+require("./routing/html-routes.js")(app);
 
 app.listen(PORT, function(){
    console.log('App listening on PORT: ' + PORT)
