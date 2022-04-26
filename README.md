@@ -7,7 +7,7 @@ A small business owner wanted to be able to write and save notes. The owner want
 ## Screenshot
 The following image shows screenshot of the generated HTML’s appearance and functionality:
 
-![Screenshot](./assets/images/Screenshot-Note-Taker.png)
+![Screenshot](./public/assets/images/Screenshot-Note-Taker.png)
 
 ## License
 - ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)(https://opensource.org/licenses/MIT)
@@ -35,8 +35,6 @@ When the write icon is clicked on in the navigation at the top of the page I am 
 ## Additional Information
 heroku deployment: type 'heroku open' on the Terminal. It will open the Note Taker App.
 URL from heroku: https://aqueous-hamlet-77332.herokuapp.com/
-
-You can also do local TEST by going to your browser and typing: localhost:8000 ('8000' is the PORT we choose for the application)
 
 ## Additional Questions
 If you have any question about the application contact me directly at: [gisewaltzer@gmail.com]
