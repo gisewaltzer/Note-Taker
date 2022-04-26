@@ -70,4 +70,4 @@ server.delete("/api/notes/:id", (req, res) => {
     });
 });
 
-server.listen(8000);
+server.listen(process.env.PORT || 8000);
